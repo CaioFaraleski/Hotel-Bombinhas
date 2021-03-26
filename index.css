@@ -31,3 +31,59 @@ figure {
     text-decoration: none;
     text-decoration-color: transparent;
 }
+
+.welcome {
+    height: 88%;
+}
+
+.tablegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1.5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.25fr 1.25fr 1fr;
+    width: 750px;
+    height: 500px;
+    opacity: 0.9;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: #4e4e4e;
+}
+
+.item2 {
+    grid-column-start: 4;
+    background-color: #4e4e4e;
+}
+
+.item3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #b5b5b5;
+}
+
+.item4 {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-color: #4e4e4e;
+}
+
+.midartw {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.linha-vertical {
+    height: 255px;
+    border-right: 4px solid #1f1f1f;
+}
+.linha-horizontal {
+    width: 215px;
+    border-bottom: 3px solid #1f1f1f;
+}
