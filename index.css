@@ -1,4 +1,4 @@
-section {
+section#home {
     height: 100vh;
     background-image: url(images/home-background.jpg);
     background-repeat: no-repeat;
@@ -10,13 +10,13 @@ section {
 nav {
     height: 12%;
     background-color: #dedede;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 9;
 }
 
 figure {
-    width: 14%;
+    width: 6%;
 }
 
 .menu-buttons {
@@ -24,6 +24,10 @@ figure {
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
+}
+
+.menuu {
+    margin-left: 1000px;
 }
 
 .menu-buttons:hover {
@@ -39,10 +43,11 @@ figure {
 .tablegrid {
     display: grid;
     grid-template-columns: 1fr 1fr 0.5fr 1.5fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1.25fr 1.25fr 1fr;
+    grid-template-rows: 0.5fr 1.25fr 1.5fr 0.75fr;
     width: 750px;
     height: 500px;
     opacity: 0.9;
+    margin-top: 20vh;
 }
 
 .item1 {
@@ -59,7 +64,7 @@ figure {
 }
 
 .item3 {
-    grid-column-start: 4;
+    grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 4;
@@ -86,4 +91,50 @@ figure {
 .linha-horizontal {
     width: 215px;
     border-bottom: 3px solid #1f1f1f;
+}
+section#contato {
+    height: 250px;
+    background-color: #5f5e5e;
+}
+
+footer h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+footer h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+footer figure {
+    width: 2rem;
+}
+
+footer div:nth-child(3) {
+    width: 160px;
+}
+
+.insta {
+    filter: contrast(0) brightness(10);
+}
+
+.insta:hover {
+    filter: none;
+}
+
+.tw {
+    filter: grayscale(10) brightness(10);
+}
+
+.tw:hover {
+    filter: none;
+}
+
+.face {
+    filter: grayscale(10) brightness(10) contrast(10);
+}
+
+.face:hover {
+    filter: none;
 }
