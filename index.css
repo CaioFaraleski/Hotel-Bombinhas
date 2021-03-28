@@ -1,5 +1,5 @@
 section#home {
-    height: 100vh;
+    height: 88vh;
     background-image: url(images/home-background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -7,8 +7,12 @@ section#home {
     background-attachment: fixed
 }
 
+header {
+    height: 12vh;
+}
+
 nav {
-    height: 12%;
+    height: 12vh;
     background-color: #dedede;
     position: fixed;
     top: 0;
@@ -37,7 +41,7 @@ figure {
 }
 
 .welcome {
-    height: 88%;
+    height: 100%;
 }
 
 .tablegrid {
@@ -47,7 +51,6 @@ figure {
     width: 750px;
     height: 500px;
     opacity: 0.9;
-    margin-top: 20vh;
 }
 
 .item1 {
@@ -95,19 +98,93 @@ figure {
 
 section#sobre {
     background-color: #ffffff;
-    height: 88vh;
-} 
-
-.sobre1 {
-    width: 30rem;
-    height: 30rem;
-    background-color: aqua;
+    height: 100vh;
 }
 
-.sobre2 {
-    width: 30rem;
-    height: 30rem;
-    background-color: aqua;
+.aboutgrid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.75fr 0.75fr 1fr 0.75fr 0.75fr 0.75fr 0.75fr 1fr 0.75fr 0.75fr 0.5fr;
+    grid-template-rows: 0.5fr 1.25fr 1fr 0.5fr 1fr 1.25fr 0.5fr;
+    width: 75%;
+    height: 75%;
+    background-color: #7d7d7d;
+}
+
+.aboutgrid div:nth-child(1) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    background-image: url(images/figure-about-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: 359px;
+    background-position-y: 112px;
+    background-attachment: fixed
+    
+}
+
+.aboutgrid div:nth-child(2) {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 8;
+    grid-column-end: 11;
+    background-image: url(images/figure-about-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position-x: 689px;
+    background-position-y: 100%;
+    background-attachment: fixed
+}
+
+.aboutgrid div:nth-child(3) {
+    background-color: #ffffff;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.aboutgrid div:nth-child(4) {
+    background-color: #ffffff;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.aboutgrid div:nth-child(5) {
+    background-color: #ffffff;
+    grid-row-start: 7;
+    grid-column-start: 9;
+    grid-column-end: 13;
+
+}
+
+.aboutgrid div:nth-child(6) {
+    background-color: #ffffff;
+    grid-row-start: 6;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
+
+.aboutgrid div:nth-child(7) {
+    background-color: #7d7d7d;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 7;
+    grid-column-end: 12;
+    color: #ffffff;
+}
+
+.aboutgrid div:nth-child(8) {
+    background-color: #7d7d7d;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    color: #ffffff;
+}
+
+section#servicos {
+    width: 200vh;
 }
 
 
@@ -126,6 +203,7 @@ footer h2 {
 footer h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
+    width: 253px;
 }
 
 footer figure {
@@ -133,7 +211,7 @@ footer figure {
 }
 
 footer div:nth-child(3) {
-    width: 140px;
+    width: 201px;
 }
 
 .insta {
