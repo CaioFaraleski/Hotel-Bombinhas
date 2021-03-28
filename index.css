@@ -98,15 +98,15 @@ figure {
 
 section#sobre {
     background-color: #ffffff;
-    height: 100vh;
+    height: 90vh;
 }
 
 .aboutgrid {
     display: grid;
     grid-template-columns: 0.5fr 0.75fr 0.75fr 1fr 0.75fr 0.75fr 0.75fr 0.75fr 1fr 0.75fr 0.75fr 0.5fr;
     grid-template-rows: 0.5fr 1.25fr 1fr 0.5fr 1fr 1.25fr 0.5fr;
-    width: 75%;
-    height: 75%;
+    width: 1427.25px;
+    height: 702.75px;
     background-color: #7d7d7d;
 }
 
@@ -183,8 +183,52 @@ section#sobre {
     color: #ffffff;
 }
 
-section#servicos {
-    width: 200vh;
+/* section#servicos {
+    height: 200vh;
+} */
+
+.servico1 {
+    padding-top: 140.55px;
+}
+
+.servico1 div:nth-child(1) {
+    background-color: #e6e6e6;
+    width: 56rem;
+    height: 48rem;
+}
+
+.servico1 div:nth-child(2) {
+    background-color: #bfbfbf;
+    width: 28rem;
+    height: 24rem;
+}
+
+.servico2 div:nth-child(2) {
+    background-color: #e6e6e6;
+    width: 56rem;
+    height: 48rem;
+}
+
+.servico2 div:nth-child(1) {
+    background-color: #bfbfbf;
+    width: 28rem;
+    height: 24rem;
+}
+
+.servico3 div:nth-child(1) {
+    background-color: #e6e6e6;
+    width: 56rem;
+    height: 48rem;
+}
+
+.servico3 div:nth-child(2) {
+    background-color: #bfbfbf;
+    width: 28rem;
+    height: 24rem;
+}
+
+.servico3 {
+    padding-bottom: 140.55px;
 }
 
 
