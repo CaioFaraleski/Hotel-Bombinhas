@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+ }
+
 section#home {
     height: 88vh;
     background-image: url(images/home-background.jpg);
@@ -103,7 +107,7 @@ section#sobre {
 
 .aboutgrid {
     display: grid;
-    grid-template-columns: 0.5fr 0.75fr 0.75fr 1fr 0.75fr 0.75fr 0.75fr 0.75fr 1fr 0.75fr 0.75fr 0.5fr;
+    grid-template-columns: 0.5fr 0.5fr 0.75fr 1fr 0.75fr 0.5fr 1fr 0.5fr 0.75fr 1fr 0.75fr 0.5fr 0.5fr;
     grid-template-rows: 0.5fr 1.25fr 1fr 0.5fr 1fr 1.25fr 0.5fr;
     width: 1427.25px;
     height: 702.75px;
@@ -127,8 +131,8 @@ section#sobre {
 .aboutgrid div:nth-child(2) {
     grid-row-start: 5;
     grid-row-end: 7;
-    grid-column-start: 8;
-    grid-column-end: 11;
+    grid-column-start: 9;
+    grid-column-end: 12;
     background-image: url(images/figure-about-1.jpg);
     background-repeat: no-repeat;
     background-size: 62%;
@@ -153,25 +157,28 @@ section#sobre {
 .aboutgrid div:nth-child(5) {
     background-color: #ffffff;
     grid-row-start: 7;
-    grid-column-start: 9;
-    grid-column-end: 13;
+    grid-column-start: 10;
+    grid-column-end: 14;
 
 }
 
 .aboutgrid div:nth-child(6) {
     background-color: #ffffff;
     grid-row-start: 6;
-    grid-column-start: 11;
-    grid-column-end: 13;
+    grid-column-start: 12;
+    grid-column-end: 14;
 }
 
 .aboutgrid div:nth-child(7) {
     background-color: #7d7d7d;
     grid-row-start: 2;
     grid-row-end: 4;
-    grid-column-start: 7;
-    grid-column-end: 12;
+    grid-column-start: 8;
+    grid-column-end: 13;
     color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .aboutgrid div:nth-child(8) {
@@ -179,13 +186,12 @@ section#sobre {
     grid-row-start: 5;
     grid-row-end: 7;
     grid-column-start: 2;
-    grid-column-end: 6;
+    grid-column-end: 7;
     color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
-
-/* section#servicos {
-    height: 200vh;
-} */
 
 .servico1 {
     padding-top: 140.55px;
@@ -231,11 +237,47 @@ section#sobre {
     padding-bottom: 140.55px;
 }
 
+.pacote {
+    font-family: 'Mukta', sans-serif;
+    color: #464646;
+}
+
+.pacote p:nth-child(1) {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pacote p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pacote a p {
+    float: right;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pacote1 {
+    font-family: 'Mukta', sans-serif;
+    color: #464646;
+}
+
+.pacote1 p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pacote1 a p {
+    float: right;
+    font-size: 13px;
+    font-weight: 500;
+}
 
 
 
 section#contato {
-    height: 250px;
+    height: 210px;
     background-color: #5f5e5e;
 }
 
