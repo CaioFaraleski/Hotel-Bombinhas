@@ -177,7 +177,7 @@ section#sobre {
     grid-column-end: 13;
     color: #ffffff;
     font-family: 'Mukta', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
 }
 
@@ -189,7 +189,7 @@ section#sobre {
     grid-column-end: 7;
     color: #ffffff;
     font-family: 'Mukta', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
 }
 
@@ -239,7 +239,7 @@ section#sobre {
 
 .pacote {
     font-family: 'Mukta', sans-serif;
-    color: #464646;
+    color: #676767;
 }
 
 .pacote p:nth-child(1) {
@@ -248,6 +248,11 @@ section#sobre {
 }
 
 .pacote p:nth-child(2) {
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.pacote p:nth-child(3) {
     font-size: 20px;
     font-weight: 500;
 }
@@ -260,7 +265,7 @@ section#sobre {
 
 .pacote1 {
     font-family: 'Mukta', sans-serif;
-    color: #464646;
+    color: #676767;
 }
 
 .pacote1 p:nth-child(1) {
@@ -273,6 +278,25 @@ section#sobre {
     font-size: 13px;
     font-weight: 500;
 }
+
+.sabermais {
+    border-bottom: #12d400 solid 3px;
+    color: #676767;
+}
+
+.sabermais:hover {
+    color: #12d400;
+}
+
+.sabermaism {
+    border-bottom: #ff0000 solid 2px;
+    color: #676767;
+}
+
+.sabermaism:hover {
+    color: #ff0000;
+}
+
 
 
 
