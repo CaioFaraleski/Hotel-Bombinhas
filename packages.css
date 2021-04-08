@@ -19,7 +19,7 @@ nav figure {
 }
 
 main {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 
 .menu-buttons {
@@ -40,12 +40,33 @@ main {
 }
 
 .packages {
-    background-color: #777777;
+    background-color: #ffffff;
     height: 64vh;
 }
 
-section#packages {
+.packagesr {
+    background-color: #ffffff;
+    height: 36vh;
+}
+
+#packages {
     height: 76vh;
+}
+
+#foods {
+    height: 88vh;
+}
+
+#rooms {
+    height: 100vh;
+}
+
+#turistics {
+    height: 136vh;
+}
+
+#hotel {
+    height: 184vh;
 }
 
 .cardp {
@@ -55,6 +76,19 @@ section#packages {
     font-family: 'Mukta', sans-serif;
     color: #676767;
 }
+
+.cardpr {
+    height: 325px;
+    width: 415px;
+    background-color: #f5f5f5;
+    font-family: 'Mukta', sans-serif;
+    color: #676767;
+}
+
+.pmais {
+    font-size: 18px;
+}
+
 
 .textos p:nth-child(1) {
     font-size: 20px;
@@ -66,4 +100,94 @@ section#packages {
 
 .textos p:nth-child(3) {
     float: right;
+}
+
+.h1r {
+    margin-bottom: 45px;
+}
+
+.title {
+    font-family: 'Train One', cursive;
+    font-size: 40px;
+    color: #2d5e8c;
+    margin: 0px;
+}
+
+.linhap {
+    height: 2px;
+    width: 210px;
+    background-color: #2d5e8c;
+}
+
+.linhar {
+    height: 2px;
+    width: 235px;
+    background-color: #2d5e8c;
+}
+
+.linhaq {
+    height: 2px;
+    width: 210px;
+    background-color: #2d5e8c;
+}
+
+.linhalt {
+    height: 2px;
+    width: 425px;
+    background-color: #2d5e8c;
+}
+
+.linhah {
+    height: 2px;
+    width: 400px;
+    background-color: #2d5e8c;
+}
+
+
+section#contato {
+    height: 210px;
+    background-color: #5f5e5e;
+}
+
+footer h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+footer h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    width: 253px;
+}
+
+footer figure {
+    width: 2rem;
+}
+
+footer div:nth-child(3) {
+    width: 201px;
+}
+
+.insta {
+    filter: contrast(0) brightness(10);
+}
+
+.insta:hover {
+    filter: none;
+}
+
+.tw {
+    filter: grayscale(10) brightness(10);
+}
+
+.tw:hover {
+    filter: none;
+}
+
+.face {
+    filter: grayscale(10) brightness(10) contrast(10);
+}
+
+.face:hover {
+    filter: none;
 }

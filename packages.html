@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -28,12 +30,15 @@
                 <a href="index.html#home1" class="menu-buttons"><div class="py-3 px-4">Home</div></a>
                 <a href="index.html#sobre" class="menu-buttons"><div class="p-3 px-4">Sobre</div></a>
                 <a href="index.html#servicos" class="menu-buttons"><div class="p-3 px-4">Serviços</div></a>
-                <a href="index.html#contato" class="menu-buttons"><div class="p-3 px-4">Contato</div></a>
+                <a href="#contato" class="menu-buttons"><div class="p-3 px-4">Contato</div></a>
             </div>
         </nav>
     </header>
     <main>
-        <section id="packages" class="d-flex align-items-end">
+        <section id="packages" class="d-flex flex-column justify-content-end align-items-center">
+            <div class="linhap"></div>
+            <p class="title">Pacotes</p>
+            <div class="linhap"></div>
             <div class="packages w-100 d-flex justify-content-around align-items-center">
                 <div class="cardp ml-5">
                     <figure class="w-100 h-50">
@@ -41,59 +46,403 @@
                     </figure>
                     <div class="textos d-flex flex-column">
                         <p class="ml-3 mb-1">Pacote Inicial - R$399,99</p>
-                        <p class="ml-2 mb-0"> 1 suite, 1 quarto, 1 banheiro e frigobar. <br>
-                            - Opções de quarto.
-                            1 suite com cama de casal e 1 quarto com 2 beliches ou 1 suite com cama de casal e 1 quarto com 1 beliche e 1 cama de casal. <br> 
-                            *Incluso café, almoço e janta. <br>
-                            - Almoço self service com escolha de prato principal exclusiva do pacote 3. <br>
-                            - Jantar especial a la carte. <br>
-                            - Pontos turisticos acompanhados pelo hotel: <br>
-                            - Todos do pacote 1 e 2 + Mirante eco 360° | Praia da tainha | Praia dos zimbros | Morro do macaco</p>
-                        <p class="d-flex justify-content-end mr-3">Agendar</p>
+                        <p class="ml-2 mb-0">
+                            1 quarto, 1 banheiro e frigobar - Single room ou Twin room. <br>
+                            - Single room: uma cama de solteiro. <br>
+                            - Twin room: duas camas de solteiro. <br>
+                            *Incluso café da manhã. <br>
+                            - Pontos turísticos acompanhados pelo hotel: <br>
+                            - Praia de Bombinhas | Praia de Mariscal | Praia de Quatro ilhas <br>
+                            *Sem acesso a academia. <br>
+                            *Piscina liberada.
+                        </p>
                     </div>
                 </div>
                 <div class="cardp">
                     <figure class="w-100 h-50">
-
+                        <img src="images/morro-do-macaco.jpg" class="w-100 h-100" alt="">
                     </figure>
                     <div class="textos d-flex flex-column">
                         <p class="ml-3 mb-1">Pacote Intemediário - R$599,99</p>
-                        <p class="ml-2 mb-0"> 1 suite, 1 quarto, 1 banheiro e frigobar. <br>
-                            - Opções de quarto.
-                            1 suite com cama de casal e 1 quarto com 2 beliches ou 1 suite com cama de casal e 1 quarto com 1 beliche e 1 cama de casal. <br> 
-                            *Incluso café, almoço e janta. <br>
-                            - Almoço self service com escolha de prato principal exclusiva do pacote 3. <br>
-                            - Jantar especial a la carte. <br>
-                            - Pontos turisticos acompanhados pelo hotel: <br>
-                            - Todos do pacote 1 e 2 + Mirante eco 360° | Praia da tainha | Praia dos zimbros | Morro do macaco</p>
-                        <p class="d-flex justify-content-end mr-3">Agendar</p>
+                        <p class="ml-2 mb-0">
+                            1 quarto, banheiro e frigobar. <br>
+                            - Opções de quarto: <br>
+                            - 1 Cama de casal e 1 Beliche. <br>
+                            - 2 Beliches. <br>
+                            *Incluso Café da manhã e Almoço.
+                            *Almoço self service, cardapio do dia no hotel
+                            - Pontos turísticos acompanhados pelo hotel:
+                            - Todos do pacote 1 + Praia da Lagoinha (trapiche) | Praia da Sepultura | Praia do Canto grande
+                        </p>
                     </div>
                 </div>
                 <div class="cardp mr-5">
                     <figure class="w-100 h-50">
-
+                        <img src="/images/mirante.jpg" class="w-100 h-100" alt="">
                     </figure>
                     <div class="textos d-flex flex-column">
                         <p class="ml-3 mb-1">Pacote Premium - R$999,99</p>
-                        <p class="ml-2 mb-0"> 1 suite, 1 quarto, 1 banheiro e frigobar. <br>
-                            - Opções de quarto.
+                        <p class="ml-2 mb-0">
+                            1 suite, 1 quarto, 1 banheiro e frigobar. <br>
+                            - Opções de quarto: <br>
                             1 suite com cama de casal e 1 quarto com 2 beliches ou 1 suite com cama de casal e 1 quarto com 1 beliche e 1 cama de casal. <br> 
-                            *Incluso café, almoço e janta. <br>
+                            *Incluso Café da manhã, Almoço e Jantar. <br>
                             - Almoço self service com escolha de prato principal exclusiva do pacote 3. <br>
                             - Jantar especial a la carte. <br>
-                            - Pontos turisticos acompanhados pelo hotel: <br>
-                            - Todos do pacote 1 e 2 + Mirante eco 360° | Praia da tainha | Praia dos zimbros | Morro do macaco</p>
-                        <p class="d-flex justify-content-end mr-3">Agendar</p>
+                            - Pontos turísticos acompanhados pelo hotel: <br>
+                            - Todos do pacote 1 e 2 + Mirante eco 360° | Praia da Tainha | Praia dos Zimbros | Morro do macaco
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="foods" class="d-flex align-items-end">
-            
+        <section id="foods" class="d-flex flex-column justify-content-end align-items-center">
+            <div class="linhar"></div>
+            <p class="title">Refeições</p>
+            <div class="linhar"></div>
+            <div class="packages w-100 d-flex justify-content-around align-items-center">
+                <div class="cardp ml-5">
+                    <figure class="w-100 h-50">
+                        <img src="images/breakfast.jpg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1 d-flex justify-content-center">Café da manhã</p>
+                        <p class="ml-3 mb-0">
+                            - Bolos <br>
+                            - Frutas <br>
+                            - Sucos <br>
+                            - Ovos com granola <br>
+                            - Tapioca e trouxinha
+                        </p>
+                    </div>
+                </div>
+                <div class="cardp">
+                    <figure class="w-100 h-50">
+                        <img src="images/lunch.jpg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1 d-flex justify-content-center">Almoço</p>
+                        <p class="ml-3 mb-0">
+                            Opções do self service: <br>
+                            - Arroz <br>
+                            - Feijão <br>
+                            - Lentilha <br>
+                            - Filé de Frango <br>
+                            - Bife <br>
+                            - Cação <br>
+                            - Salmão <br>
+                            - Pescada
+                        </p>
+                    </div>
+                </div>
+                <div class="cardp mr-5">
+                    <figure class="w-100 h-50">
+                        <img src="/images/dinner.jpg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1 d-flex justify-content-center">Jantar</p>
+                        <p class="ml-3 mb-0">
+                            - Opções de prato Premium: <br>
+                            - Coxa de frango com ervas <br>
+                            - Cocotte de ovo <br>
+                            - Fritada de batata e salame <br>
+                            - Atum branco com salada de papaia verde <br>
+                            - Maminha assada com manjericão 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="rooms" class="d-flex flex-column justify-content-end align-items-center">
+            <div class="linhaq"></div>
+            <p class="pr title">Quartos</p>
+            <div class="linhaq mb-5"></div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-start">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/single-room.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Single room</b> - Pacote inicial</p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/casal-beliche.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Cama de casal e Beliche</b> - Pacote Intermediário</p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/suite.jpg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Suíte Premium</b> - Pacote Premium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-end">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/twin-room.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Twin room</b> - Pacote inicial</p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/2beliche.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Conjunto de 2 Beliches</b> - Pacote Intermediário</p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/suite2.jpg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Suíte Premium</b> - Pacote Premium</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="turistics" class="d-flex flex-column justify-content-end align-items-center">
+            <div class="linhalt"></div>
+            <p class="title">Lugares Turísticos</p>
+            <div class="linhalt mb-5"></div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-start">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/bombinhas.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Praia de Bombinhas</b> - Pacote inicial</p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/mariscal.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Praia de Mariscal</b> - Pacote inicial</p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/4ilhas.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Praia de Quatro Ilhas</b> - Pacote inicial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-center">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/lagoinha.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Praia da Lagoinha</b> - Pacote Intermediário</p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/sepultura.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Praia da Sepultura</b> - Pacote Intermediário</p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/canto-grande.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Praia do Canto Grande</b> - Pacote Intermediário</p>
+                    </div>
+                </div>
+            </div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-end">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/morro.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Morro do Macaco</b> - Pacote Premium</p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/mirante360.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Mirante eco 360°</b> - Pacote Premium</p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/zimbros.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Praia de Zimbros</b> - Pacote Premium</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="hotel" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="linhah"></div>
+            <p class="title">Imagens do Hotel</p>
+            <div class="linhah mb-5"></div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-center">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/hotel-images/img1.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/hotel-images/img2.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/hotel-images/img3.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-center">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/hotel-images/img4.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/hotel-images/img5.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/hotel-images/img6.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-center">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/hotel-images/img7.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/hotel-images/img8.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/hotel-images/img9.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="packagesr w-100 d-flex justify-content-around align-items-center">
+                <div class="cardpr ml-5">
+                    <figure class="w-100 h-75">
+                        <img src="images/hotel-images/img10.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+                <div class="cardpr">
+                    <figure class="w-100 h-75">
+                        <img src="images/hotel-images/img11.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+                <div class="cardpr mr-5">
+                    <figure class="w-100 h-75">
+                        <img src="/images/hotel-images/img12.jpeg" class="w-100 h-100" alt="">
+                    </figure>
+                    <div class="textos d-flex flex-column">
+                        <p class="ml-3 mb-1"><b>Contornos do Hotel</b></p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-
-    </footer>
+        <section id="contato" class="d-flex justify-content-around flex-wrap">
+        <div class="d-flex justify-content-center w-100 mt-3">
+            <h2>
+                Contato
+            </h2>
+        </div>
+        <div>
+            <h6>
+                Hotel Bombinhas <br>
+                Rua Aroeira da Praia, 500 <br>
+                Bombinhas/SC, Brasil <br>
+                CEP 88215000
+            </h6>
+        </div>
+        <div class="d-flex justify-content-around">
+            <figure>
+                <a href="https://www.instagram.com/pousada.bombinhass/">
+                    <img class="insta w-100" src="images/Instagram.png" alt="Instagram">
+                </a>
+            </figure>
+            <figure>
+                <a href="https://twitter.com/EtecHotel?s=08">
+                    <img class="tw w-100" src="images/twitter-logo.svg" alt="Twitter">
+                </a>
+            </figure>
+            <figure>
+                <a href="https://www.facebook.com/bombinhas.etec">
+                    <img class="face w-100" src="images/face-logo.svg" alt="Facebook">
+                </a>
+            </figure>
+        </div>
+        <div>
+            <h6>
+                Telefone: +55 (47)87709-5655 <br>
+                Email: hoteletec@hotmail.com <br>
+                Reserve seu quarto já! <br>
+            </h6>
+        </div>
+    </section>
+</footer>
 </body>
 </html>
