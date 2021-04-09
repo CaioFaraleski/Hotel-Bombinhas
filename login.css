@@ -1,0 +1,18 @@
+figure {
+    height: 20px;
+    width: 20px;
+}
+
+header {
+    font-size: 20px;
+    height: 12vh;
+}
+
+a p {
+    text-decoration: none;
+    color: #000000;
+}
+
+header a:hover {
+    text-decoration: none;
+}
