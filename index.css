@@ -23,6 +23,10 @@ nav {
     z-index: 9;
 }
 
+.fig-header {
+    width: 16rem;
+}
+
 figure {
     width: 6%;
 }
@@ -30,13 +34,8 @@ figure {
 .menu-buttons {
     color: #777777;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 600;
-}
-
-.menuu {
-    margin-left: 415px;
-    margin-right: 555px;
 }
 
 .menu-buttons:hover {
@@ -48,7 +47,7 @@ figure {
 .cadastro {
     color: #d20000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -100,7 +99,7 @@ figure {
 
 .midartw {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -123,8 +122,8 @@ section#sobre {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.75fr 1fr 0.75fr 0.5fr 1fr 0.5fr 0.75fr 1fr 0.75fr 0.5fr 0.5fr;
     grid-template-rows: 0.5fr 1.25fr 1fr 0.5fr 1fr 1.25fr 0.5fr;
-    width: 1427.25px;
-    height: 702.75px;
+    width: 74.3%;
+    height: 72.3%;
     background-color: #7d7d7d;
 }
 
@@ -191,7 +190,7 @@ section#sobre {
     grid-column-end: 13;
     color: #ffffff;
     font-family: 'Mukta', sans-serif;
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -203,7 +202,7 @@ section#sobre {
     grid-column-end: 7;
     color: #ffffff;
     font-family: 'Mukta', sans-serif;
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -257,7 +256,7 @@ section#sobre {
 }
 
 .pacote p:nth-child(1) {
-    font-size: 25px;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 
@@ -267,13 +266,13 @@ section#sobre {
 }
 
 .pacote p:nth-child(3) {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
 .pacote a p {
     float: right;
-    font-size: 13px;
+    font-size: .8rem;
     font-weight: 500;
 }
 
@@ -283,13 +282,13 @@ section#sobre {
 }
 
 .pacote1 p:nth-child(1) {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .pacote1 a p {
     float: right;
-    font-size: 13px;
+    font-size: .8rem;
     font-weight: 500;
 }
 
@@ -359,3 +358,14 @@ footer div:nth-child(3) {
     filter: none;
 }
 
+@media (max-width: 1536px) {
+    html {
+      font-size: 12.3px;
+    }
+  }
+  
+  @media (max-width: 1366px) {
+    html {
+      font-size: 10px;
+    }
+  }
