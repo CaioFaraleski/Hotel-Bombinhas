@@ -1,8 +1,8 @@
 ## SetVet
 
-<img href="" />![Preview-Screens](./img-readme.png)
+<img href="" />![Preview-Screens](./images/readme-img.png)
 
-Se você quiser ver o projeto funcionando [clique aqui](https://caiofaraleski.github.io/SetVet/index.html).
+Se você quiser ver o projeto funcionando [CLIQUE AQUI](https://caiofaraleski.github.io/Hotel-Bombinhas/).
 
 ## Sobre o projeto
 
