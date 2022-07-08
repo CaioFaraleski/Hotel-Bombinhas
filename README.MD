@@ -1,4 +1,4 @@
-## SetVet
+## Hotel Bombinhas
 
 <img href="" />![Preview-Screens](./images/readme-img.png)
 
